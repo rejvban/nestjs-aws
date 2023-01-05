@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@nestjs-aws/cognito",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "source": "lib/index.ts",
+  "types": "dist/index.d.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}
